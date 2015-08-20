@@ -15,6 +15,10 @@ body {
   height: 90%;
 }
 
+.modal-body {
+  height: 100%;
+}
+
 .tinder-container {
   width: 500px;
   margin: auto !important;

@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    $('#purchaseModal').modal({show: false});
 
     $(".buddy").on("swiperight",function(){
       $(this).addClass('rotate-left').delay(700).fadeOut(1);
@@ -10,6 +11,8 @@ $(document).ready(function(){
        } else {
           $(this).next().removeClass('rotate-left rotate-right').fadeIn(400);
        }
+      
+      $('#purchaseModal').modal('show');
     });  
 
    $(".buddy").on("swipeleft",function(){
