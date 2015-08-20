@@ -10,6 +10,14 @@ body {
   background-color: #ffe2ec  !important;
 }
 
+iframe {
+	overflow:auto;
+	-webkit-overflow-scrolling:touch !important;
+	width: 1px;
+    min-width: 100%;
+    *width: 100%;
+}
+
 .close p {
   color: black;
 }
