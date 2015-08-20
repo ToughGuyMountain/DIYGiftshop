@@ -2,6 +2,11 @@ body {
 	background-color: #ffe2ec;
 }
 
+iframe {
+	overflow:auto;
+	-webkit-overflow-scrolling:touch;
+}
+
 .close p {
   color: black;
 }
