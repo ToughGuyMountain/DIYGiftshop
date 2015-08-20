@@ -1,5 +1,13 @@
 body {
-  background-color: #ffe2ec;
+  background-color: #ffe2ec !important;
+}
+
+#dat-bod {
+  background-color: #ffe2ec !important;
+}
+
+.ui-mobile-viewport .ui-overlay-a {
+  background-color: #ffe2ec  !important;
 }
 
 .close p {
@@ -12,7 +20,7 @@ body {
 }
 
 .modal-dialog {
-    width: 90%;
+  width: 90%;
   height: 100%; 
 }
 
