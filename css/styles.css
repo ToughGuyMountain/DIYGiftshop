@@ -3,7 +3,7 @@ body {
 }
 
 
-#container {
+.tinder-container {
   width: 500px;
   margin: auto !important;
   display: block;
@@ -17,6 +17,7 @@ body {
   -ms-user-select: none;
   user-select: none;
 }
+
 .buddy {
   display: none;
   background: #fff;
