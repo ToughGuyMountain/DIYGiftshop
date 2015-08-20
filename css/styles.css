@@ -3,9 +3,9 @@ body {
 }
 
 iframe {
-	overflow:scroll !important;
+	overflow:auto;
 	-webkit-overflow-scrolling:touch !important;
-	
+
 }
 
 .close p {
