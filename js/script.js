@@ -1,10 +1,16 @@
 var item = 1;
 var itemUrls = [
+  'coffee.html',
+  'hat.html',
+  'hoodie.html',
+  'mousepad.html',
+  'pen.html',
+  'polo.html',
+  'stress.html',
+  'tape.html',
+  'tote.html',
   'tshirt.html',
-  'tshirt.html',
-  'tshirt.html',
-  'tshirt.html',
-  'tshirt.html'
+  'usb.html'
 ];
 
 $(document).ready(function(){
