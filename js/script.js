@@ -28,8 +28,8 @@ $(document).ready(function(){
        }
       
       window.setTimeout(function() {
-        window.location.href = itemUrls[item];
         item++;
+        window.location.href = itemUrls[item-1];
       }, 400);
             
       
@@ -40,6 +40,7 @@ $(document).ready(function(){
     $(this).addClass('rotate-right').delay(700).fadeOut(1);
     $('.buddy').find('.status').remove();
     $(this).append('<div class="status dislike">Not Buy!</div>');
+    item++
 
 
     console.log(item);
