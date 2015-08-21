@@ -29,9 +29,9 @@ $(document).ready(function(){
       
       window.setTimeout(function() {
         window.location.href = itemUrls[item];
+        item++;
       }, 400);
             
-      item++;
       
       $('#purchaseModal').modal('show');
     });  
@@ -41,7 +41,7 @@ $(document).ready(function(){
     $('.buddy').find('.status').remove();
     $(this).append('<div class="status dislike">Not Buy!</div>');
 
-    item++;
+
     console.log(item);
      
     if ( $(this).is(':last-child') ) {
