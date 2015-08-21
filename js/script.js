@@ -1,6 +1,8 @@
 var item = 1;
 var itemUrls = [
   'coffee.html',
+  'coffee.html',
+  'coffee.html',
   'hat.html',
   'hoodie.html',
   'mousepad.html',
