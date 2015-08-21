@@ -37,7 +37,9 @@ body {
   height: 95%;
   position: fixed;
   width: 100%;
-  overflow: hidden;
+  
+  -webkit-overflow-scrolling: touch;
+  overflow: scroll;
 }
 
 .tinder-container {
@@ -117,9 +119,4 @@ body {
   top: 50px;
   left: 40px;
   text-shadow: none;
-}
-
-.iframeStyle {
-  -webkit-overflow-scrolling: touch;
-    overflow-y: scroll;
 }
