@@ -11,9 +11,7 @@ body {
 }
 
 iframe {
-	width: 1px;
-    min-width: 100%;
-    *width: 100%;
+
 }
 
 .close p {
@@ -37,6 +35,8 @@ iframe {
 
 .modal-body {
   height: 95%;
+  -webkit-overflow-scrolling: touch;
+    overflow-y: scroll;
 }
 
 .tinder-container {
