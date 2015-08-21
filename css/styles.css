@@ -2,16 +2,16 @@ body {
   background-color: #ffe2ec !important;
 }
 
+.ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper {
+  background-color: #ffe2ec !important;
+}
+
 #dat-bod {
   background-color: #ffe2ec !important;
 }
 
 .ui-mobile-viewport .ui-overlay-a {
   background-color: #ffe2ec  !important;
-}
-
-iframe {
-
 }
 
 .close p {
