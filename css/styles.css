@@ -11,8 +11,6 @@ body {
 }
 
 iframe {
-	overflow:auto;
-	-webkit-overflow-scrolling:touch !important;
 	width: 1px;
     min-width: 100%;
     *width: 100%;
@@ -85,7 +83,7 @@ iframe {
   cursor: w-resize;
 }
 .avatar {
-  background: #222;
+  background: #ffe2ec;
   width: 340px;
   height: 340px;
   display: block;
