@@ -120,7 +120,6 @@ body {
 }
 
 .iframeStyle {
-  position: fixed;
-  width: 100%;
-  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+    overflow-y: scroll;
 }
