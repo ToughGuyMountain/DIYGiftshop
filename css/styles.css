@@ -35,6 +35,9 @@ body {
 
 .modal-body {
   height: 95%;
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
 }
 
 .tinder-container {
